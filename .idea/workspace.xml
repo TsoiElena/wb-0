@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7de51b3-69cb-4f5f-9d2d-29c2b266b741" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/basketIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/basketMobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/card1photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/card2photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/card3photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/catalogMobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/changeIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/checkMod.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/checkbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/favoritesMobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/galka.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gradeIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/homeMobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/infoIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mastercard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menuIconMobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/minusIcons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mirPaySistem.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/missing1photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/missing2photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/missing3photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/plusIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/popUpIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/profileIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/profileMobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/returnDeliveryIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/searchIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/searchIconModile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/visa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cardsStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contentStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mesiaStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2HqoRnL0XniPNPpsfbxuMbgKOgL" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7de51b3-69cb-4f5f-9d2d-29c2b266b741" name="Default Changelist" comment="" />
+      <created>1669021969357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669021969357</updated>
+      <workItem from="1669021972232" duration="123292000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1670191447389">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1670191447389" />
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1670027876581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1670027876581" />
+    <state x="92" y="92" width="1736" height="856" key="dock-window-2" timestamp="1670027876581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1670027876581" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1670167857824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1670167857824" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1669294881826">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1669294881826" />
+  </component>
+</project>

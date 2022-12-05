@@ -1,0 +1,423 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        box-sizing: border-box;
+    }
+    .search {
+        width: 594px;
+        box-sizing: border-box;
+    }
+
+    .searchInput{
+        width: 522px;
+    }
+
+    .content {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .info{
+        box-sizing: border-box;
+        width: 654px;
+    }
+
+    .deliveryMethodBlock{
+        width: 638px;
+        height: 362px;
+    }
+
+    .BlockTitle {
+        max-width: 502px;
+    }
+
+    .payMethodBlock {
+        width: 640px;
+        height: 136px;
+    }
+
+    .recipient {
+        width: 638px;
+        height: 216px;
+    }
+
+    .recipientData {
+        width: 283px;
+    }
+
+    .recipientContacts {
+        width: 180px;
+    }
+
+    .total{
+        box-sizing: border-box;
+        max-width: 303px;
+        height: 604px;
+    }
+
+    .checkPay {
+        max-width: 230px;
+    }
+
+    .footer {
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (min-width: 319px) and (max-width: 424px) {
+
+    .header {
+        display: none;
+    }
+    .delMobile {
+        display: none;
+    }
+    .showMobile {
+        display: block;
+    }
+    .header_mobile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 13px;
+        gap: 16px;
+
+        width: 100%;
+        box-sizing: border-box;
+        height: 56px;
+    }
+    .logoMobile{
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.02em;
+        font-variant: small-caps;
+        color: #FFFFFF;
+    }
+    .content {
+        flex-direction: column;
+        gap: 16px;
+        padding: 0 0 24px 0;
+        box-sizing: border-box;
+    }
+    .basketBlock {
+        margin: 0 16px;
+        padding-bottom: 45px;
+        gap: 0;
+    }
+    .info {
+        width: 100%;
+        padding-top: 16px;
+    }
+    .basketTitle {
+        margin: 0 16px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .basketPopup {
+        margin: 0 16px;
+        padding: 17px 0;
+        border: none;
+    }
+    .card {
+        flex-direction: column;
+        gap: 12px;
+        padding-top: 11px;
+        margin-bottom: 16px;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .boxphoto {
+        flex-direction: column;
+        position: relative;
+    }
+    .checkMob {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+    }
+    .photo {
+        width: 80px;
+        height: 106px;
+    }
+    .SizeMobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 4px 3px;
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        left: 4px;
+        bottom: 4px;
+        background: #FFFFFF;
+        border-radius: 6px;
+        box-sizing: border-box;
+    }
+    .priceInBasketMob {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: -8px;
+        gap: 5px;
+    }
+
+    .countSet {
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .goodName {
+        max-width: 192px;
+        max-height: 40px;
+        font-size: 14px;
+        line-height: 20px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .countChanger {
+        width: 80px;
+        height: 32px;
+        padding: 0;
+    }
+    .count {
+        width: 32px;
+        box-sizing: border-box;
+    }
+    .remaind {
+        margin-left: 16px;
+        min-width: 100px;
+    }
+    .setting {
+        margin-left: 17px;
+        display: flex;
+        gap: 27px;
+    }
+    .missingPopup {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 16px;
+        padding-bottom: 2px;
+        border: none;
+    }
+    .missingSet  {
+        width: 90%;
+        display: flex;
+        justify-content: end;
+    }
+    .deliveryMethodBlock {
+        width: 100%;
+        height: 520px;
+        margin: 0;
+        padding: 16px;
+        gap: 0;
+    }
+    .deliveryBlock {
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .BlockTitle {
+        max-width: 200px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .table {
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 16px;
+        max-height: 50%;
+    }
+    .point {
+        margin-bottom: 5px;
+    }
+    .push {
+        max-width: 45px;
+    }
+    .dateDelivery {
+        gap: 0;
+    }
+    .goodsDelivery {
+        max-height: 92px;
+    }
+    .payMethodBlock {
+        width: 100%;
+        height: 124px;
+        margin-top: 12px;
+        padding: 16px 16px 24px 16px;
+        gap: 8px;
+    }
+    .recipient {
+        width: 100%;
+        height: 420px;
+        margin: 12px 0 0 0;
+        padding: 16px 16px 24px 16px;
+        gap: 0;
+    }
+    .mobRecipient {
+        margin-bottom: 8px;
+    }
+    .recipientGap {
+        flex-direction: column;
+        gap: 27px;
+    }
+    .input-container{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 40px;
+        margin: 0;
+        width: 288px;
+    }
+    .recipientData {
+        max-width: 288px;
+    }
+    .ic3 {
+        margin-top: 27px;
+    }
+    .recipientContacts {
+        width: 288px;
+    }
+    .placeholder {
+        top: 100%;
+    }
+
+    .recipientData:focus ~ .placeholder {
+        top: 40%;
+    }
+
+    .recipientContacts:not(:placeholder-shown) ~ .placeholder {
+        color: #A0A0A4;
+    }
+
+    .recipientContacts:focus ~ .placeholder {
+        top: 40%;
+    }
+    .InnInfo {
+        position: relative;
+        top:220%
+    }
+    .total {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 16px 0px 16px;
+        gap: 16px;
+        height: 378px;
+        background: transparent;
+        border-radius: 16px 16px 0px 0px;
+        box-shadow: none;
+        box-sizing: border-box;
+        margin-bottom: 16px;
+    }
+    .space {
+        min-width: 288px;
+        box-sizing: border-box;
+    }
+    .totalPrice {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .backDelivery {
+        background: #F0ECF4;
+        border-radius: 8px;
+    }
+    .textback {
+        display: flex;
+    }
+
+    .payNow {
+        max-width: 288px;
+        background: #F0ECF4;
+        border-radius: 8px;
+    }
+    .checkPay {
+        max-width: 288px;
+    }
+    .menuMobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 13px;
+        gap: 24px;
+        isolation: isolate;
+        width: 100%;
+        height: 56px;
+        background: #FFFFFF;
+        box-shadow: 0px -0.5px 0px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(2.5px);
+        box-sizing: border-box;
+    }
+    .basketCount {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 2px;
+        position: absolute;
+        left: 51.25%;
+        right: 43.75%;
+        top: 17.86%;
+        bottom: 53.57%;
+        background: #F55123;
+        border-radius: 16px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+    .validation {
+        top: 220%;
+    }
+    .none {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        z-index: -2;
+    }
+    .modalPay {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+        box-sizing: border-box;
+        width: 320px;
+        height: 594px;
+        background: #FFFFFF;
+        left: 0;
+        top: 0;
+    }
+    .modalTitle {
+        width: 260px;
+    }
+    .modalDel {
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+        width: 320px;
+        height: 594px;
+        background: #FFFFFF;
+        left: 0;
+        top: 0;
+    }
+    .butMeth{
+        width: 140px;
+        height: 40px;
+    }
+    .adressMod {
+        width: 236px;
+    }
+}

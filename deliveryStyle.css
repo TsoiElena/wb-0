@@ -1,0 +1,379 @@
+.deliveryMethodBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 16px 24px;
+    gap: 16px;
+    isolation: isolate;
+    width: 891px;
+    height: 362px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.deliveryBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BlockTitle {
+    width: 755px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.BlockButton {
+    background: transparent;
+    border: none;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #CB11AB;
+}
+
+.table {
+    display: flex;
+    gap: 32px;
+    max-height: 56px;
+}
+
+.point {
+    min-width: 153px;
+    max-height: 56px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.adress{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.gradeWorkTime {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.workTime {
+    margin-left: 8px;
+}
+
+.dateDelivery {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.goodsDelivery {
+    display: flex;
+    gap: 8px;
+}
+
+.deliveryGood {
+    width: 40px;
+    height: 56px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.returnDelivery {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.returnPrice {
+    color: #0CB477;
+}
+
+.payMethodBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 16px;
+    padding: 16px 24px 24px;
+    gap: 16px;
+    width: 891px;
+    height: 136px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.paying {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.payCardInfo{
+    display: flex;
+}
+
+.payCardText {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.payCardNumber {
+    margin-left: 9px;
+}
+
+.payCardDate {
+    margin-left: 12px;
+}
+
+.payWhen{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #A0A0A4;
+}
+
+.recipient {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px 0 26px 0;
+    padding: 16px 24px 24px;
+    gap: 16px;
+    width: 891px;
+    height: 216px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.recipientGap {
+    display: flex;
+    gap: 24px;
+}
+
+.recipientData {
+    width: 338px;
+    height: 24px;
+    margin-top: 18px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    border: none;
+    border-bottom: 1px solid #A0A0A4;
+    outline: none;
+}
+
+.recipientContacts {
+    width: 217px;
+    height: 24px;
+    margin-top: 19px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A0A0A4;
+    border: none;
+    border-bottom: 1px solid #A0A0A4;
+    outline: none;
+}
+
+.placeholder {
+    pointer-events: none;
+    position: relative;
+    top: -44%;
+    width: 217px;
+    height: 24px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A0A0A4;
+
+}
+
+.recipientData:not(:placeholder-shown) ~ .placeholder {
+    color: #A0A0A4;
+}
+
+.recipientData:focus ~ .placeholder {
+    pointer-events: none;
+    position: relative;
+    top: -74%;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #A0A0A4;
+}
+
+.recipientContacts:not(:placeholder-shown) ~ .placeholder {
+    color: #A0A0A4;
+}
+
+.recipientContacts:focus ~ .placeholder {
+    pointer-events: none;
+    position: relative;
+    top: -74%;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #A0A0A4;
+}
+
+.ic5{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0;
+}
+.InnInfo {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    align-self: start;
+    margin-top: -17px;
+}
+
+.label {
+    pointer-events: none;
+    position: relative;
+    top: -74%;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #A0A0A4;
+}
+
+.hidden {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+.validation {
+    position: relative;
+    top: -20%;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #F55123;
+}
+.invalid {
+    color: #F55123;
+}
+
+.free {
+   display: none;
+}
+
+#return1:hover ~ .free {
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 16px 14px;
+    gap: 8px;
+    position: relative;
+    width: 288px;
+    height: 56px;
+    left: 0px;
+    top: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15), 0px 0px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+#return2:hover ~ .free {
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 16px 14px;
+    gap: 8px;
+    position: relative;
+    width: 288px;
+    height: 56px;
+    left: 0px;
+    top: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15), 0px 0px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
